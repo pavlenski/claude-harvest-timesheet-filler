@@ -15,15 +15,14 @@ or like:
 ## Behaviour rules
 - Load env from `.env` in this directory
 - Load project mappings from `config.json`
+- Load user-specific overrides from `CUSTOM_INSTRUCTIONS.md` — these take precedence over defaults here
 - Fetch today's calendar events from Google Calendar (skip all-day events)
 - Map meeting titles to Harvest projects using `calendar_meeting_keywords` in config
-- All meetings that last for 15 should be logged as 30 minutes in Harvest instead
 - Allocate remaining hours across projects I describe in natural language
-- Hours must add up to `default_hours_per_day` - ask me if unclear
+- Hours must add up to `default_hours_per_day` from `config.json` (unless overridden in `CUSTOM_INSTRUCTIONS.md`) - ask me if unclear
 - Round time entries to nearest 0.25h
 - If the user asks to log timesheets for a whole week, ask him what on each, and follow regular rules for daily inputs
-- If the user asks to log timesheets for a whole wee, also allow him an option to skip a day
-- For this specific user always make sure that 7.5 hours have been logged for each work day (7hours 30 minutes total)
+- If the user asks to log timesheets for a whole week, also allow him an option to skip a day
 - Before submitting, show me a summary and ask for confirmation
 - Use Harvest API v2: https://help.getharvest.com/api-v2/
 

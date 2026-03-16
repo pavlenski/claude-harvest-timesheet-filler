@@ -108,6 +108,7 @@ Claude will:
 | `credentials/google-calendar.json` | Google OAuth client credentials (not committed) |
 | `credentials/google-calendar-token.json` | Google OAuth tokens (not committed) |
 | `CLAUDE.md` | Behaviour rules for Claude Code |
+| `CUSTOM_INSTRUCTIONS.md` | Your personal overrides (daily hours target, meeting rounding, etc.) |
 | `SETUP.md` | Detailed Harvest setup instructions for Claude |
 | `GOOGLE_CALENDAR_SETUP.md` | Detailed Google Calendar setup instructions for Claude |
 
