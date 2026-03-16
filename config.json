@@ -1,0 +1,51 @@
+{
+  "default_hours_per_day": 7.5,
+  "harvest": {
+    "projects": {
+      "Customer Portal MVP": {
+        "project_id": "46982106",
+        "tasks": {
+          "designer": "23341052",
+          "development": "1284241",
+          "project management": "1284210",
+          "senior developer": "21910896",
+          "solutions architect": "21495920",
+          "ux lead": "24608036"
+        }
+      },
+      "ServiceNow - Portfolio": {
+        "project_id": "43946248",
+        "tasks": {
+          "creative": "6401866",
+          "development": "1284241",
+          "project management": "1284210"
+        }
+      },
+      "Dev - Non-Billable 2025": {
+        "project_id": "43178035",
+        "tasks": {
+          "certifications/learning": "23704485",
+          "internal meetings": "12996272",
+          "internal projects": "24212652",
+          "mentoring": "24969628",
+          "mono wow! portal": "23725617",
+          "research and innovation": "24969594",
+          "unassigned": "18206669"
+        }
+      },
+      "Vibe Portal": {
+        "project_id": "42252058",
+        "tasks": {
+          "blocked": "18206670",
+          "development": "1284241",
+          "discovery": "20956401",
+          "estimating": "3829073",
+          "poc work": "23659154",
+          "prototyping": "21904147",
+          "story writing": "19353783"
+        }
+      }
+    }
+  },
+  "calendar_meeting_keywords": {}
+}
