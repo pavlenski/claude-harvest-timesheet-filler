@@ -53,6 +53,14 @@ This will:
   - Enable at: `https://console.developers.google.com/apis/api/calendar-json.googleapis.com/overview?project=YOUR_PROJECT_NUMBER`
   - Project number is the digits before the `-` in your `client_id`
 
+**Steps:**
+- Go to **console.cloud.google.com** → Create a new project (call it "Timesheet")
+- Enable the **Google Calendar API** (APIs & Services → Enable APIs)
+- Go to **APIs & Services → Credentials → Create Credentials → OAuth client ID**
+- Choose **Desktop app**, download the JSON file
+- Save it as ``credentials/google-calendar.json``
+- Set ``GOOGLE_CALENDAR_ID`` to your Google account email in ``.env``
+
 **Run the auth script:**
 
 ```bash
