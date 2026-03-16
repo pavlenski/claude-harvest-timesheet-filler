@@ -92,9 +92,8 @@ Fill my timesheets for the whole past week.
 Claude will:
 1. Fetch your calendar events for the day(s)
 2. Map meetings to Harvest projects using `calendar_meeting_keywords` in `config.json`
-3. Log meetings that are 15 min as 30 min
-4. Allocate remaining hours across projects you describe
-5. Show a summary and ask for confirmation before submitting
+3. Allocate remaining hours across projects you describe
+4. Show a summary and ask for confirmation before submitting
 
 ---
 
